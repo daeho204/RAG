@@ -1,0 +1,18 @@
+# venv
+.venv/
+__pycache__/
+*.pyc
+
+# secrets
+.env
+
+# local data
+data/pdfs/*
+!data/pdfs/.keep
+
+# logs / caches
+logs/
+*.log
+
+# (optional) huggingface cache if you also cache on host
+.hf_cache/
