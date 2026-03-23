@@ -1,0 +1,232 @@
+[
+  {
+    "cluster": "전원 및 에너지",
+    "sampled_terms": {
+      "brownout": "절전",
+      "bias current": "바이어스 전류",
+      "agreed power": "계약전력",
+      "a.c. power port": "교류전원 포트"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "During a brownout, it's crucial to monitor the bias current to prevent any disruptions in operations. The agreed power stipulates the limits within which a device can function optimally. Additionally, ensuring that the a.c. power port is functioning properly can prevent equipment damage.",
+        "한글": "절전 시 작동 장애를 방지하기 위해 바이어스 전류를 모니터링하는 것이 중요합니다. 계약전력은 장치가 최적으로 작동할 수 있는 한계를 규정합니다. 또한, 교류전원 포트가 제대로 작동하는지 확인하는 것이 장비 손상을 방지할 수 있습니다."
+      },
+      {
+        "영문": "A sudden surge can affect the operational capacity during a brownout. By managing the bias current effectively, systems can maintain stability. It's important that the a.c. power port is compatible with the agreed power to ensure safety.",
+        "한글": "갑작스러운 전류 상승은 절전 시 운영 용량에 영향을 줄 수 있습니다. 바이어스 전류를 효과적으로 관리하면 시스템의 안정성을 유지할 수 있습니다. 교류전원 포트가 계약전력과 호환되는 것이 안전을 보장하는 데 중요합니다."
+      },
+      {
+        "영문": "To prevent equipment failure during a brownout, adjust the bias current according to the agreed power specifications. Ensure that the a.c. power port is robust enough to handle fluctuations.",
+        "한글": "절전 중 장비 고장을 방지하려면 계약전력 사양에 맞게 바이어스 전류를 조정해야 합니다. 교류전원 포트가 변동을 처리할 수 있을 만큼 견고한지 확인하세요."
+      }
+    ]
+  },
+  {
+    "cluster": "전원 및 에너지",
+    "sampled_terms": {
+      "active power": "유효 전력",
+      "blackout": "정전",
+      "AC mains power port": "직류 주전원 포트",
+      "air insulated substation": "공기 절연 변전소"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "During a blackout, it is crucial to ensure that the active power supplied to the grid remains stable. In large facilities, the AC mains power port needs to be checked regularly to prevent any faults. An air insulated substation plays a critical role in maintaining power distribution, especially during adverse weather conditions.",
+        "한글": "정전 시에는 그리드에 공급되는 유효 전력이 안정적으로 유지되는 것이 중요합니다. 대규모 시설에서는 직류 주전원 포트를 정기적으로 점검하여 고장을 예방해야 합니다. 공기 절연 변전소는 특히 악천후 시 전력 분배를 유지하는 데 중요한 역할을 합니다."
+      },
+      {
+        "영문": "The testing of an air insulated substation involves checking its efficiency in delivering active power. During emergencies like a blackout, the reliability of the AC mains power port is tested thoroughly to ensure continuous power transmission. Engineers conduct routine checks to prevent service interruptions.",
+        "한글": "공기 절연 변전소의 테스트는 유효 전력을 전달하는 효율성을 점검하는 것을 포함합니다. 정전과 같은 비상 상황에서는 직류 주전원 포트의 신뢰성을 철저히 테스트하여 지속적인 전력 전송을 보장합니다. 엔지니어들은 서비스 중단을 예방하기 위해 정기적인 점검을 수행합니다."
+      },
+      {
+        "영문": "Regular maintenance of the AC mains power port is essential to ensure the active power supply is not compromised. In the case of a blackout, quick restoration is possible due to robust infrastructure, including well-maintained air insulated substations, reducing downtime significantly.",
+        "한글": "유효 전력 공급에 차질이 없도록 하려면 직류 주전원 포트의 정기적인 유지보수가 필수적입니다. 정전 발생 시, 잘 관리된 공기 절연 변전소 등 견고한 인프라 덕분에 신속한 복구가 가능하여 다운타임을 크게 줄일 수 있습니다."
+      }
+    ]
+  },
+  {
+    "cluster": "측정 및 시험",
+    "sampled_terms": {
+      "alternative test method": "대체 시험 방법",
+      "device under test": "피시험 장치",
+      "coupling/decoupling network": "결합/감결합회로망",
+      "declared input voltage": "공표된 입력 전압"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "In order to ensure the reliability of electronic devices, alternative test methods have been proposed. These methods utilize a coupling/decoupling network to evaluate the performance of the device under test. It's essential to verify that the declared input voltage is maintained throughout the testing process to guarantee accurate results.",
+        "한글": "전자 장치의 신뢰성을 보장하기 위해 대체 시험 방법이 제안되었습니다. 이러한 방법은 피시험 장치의 성능을 평가하기 위해 결합/감결합회로망을 사용합니다. 정확한 결과를 보장하기 위해 시험 과정 내내 공표된 입력 전압이 유지되는지 확인하는 것이 중요합니다."
+      },
+      {
+        "영문": "A comprehensive study on electromagnetic interference required the use of a coupling/decoupling network. The device under test was subjected to conditions specified by alternative test methods. Particular care was taken to ensure that the declared input voltage was consistently applied during tests.",
+        "한글": "전자기 간섭에 대한 포괄적인 연구에는 결합/감결합회로망의 사용이 필요했습니다. 피시험 장치는 대체 시험 방법에 의해 규정된 조건에 노출되었습니다. 시험 중에는 공표된 입력 전압이 지속적으로 적용되도록 특별히 주의했습니다."
+      },
+      {
+        "영문": "The development of new industrial standards emphasizes the importance of testing with alternative test methods. For effective validation, the device under test is connected to a coupling/decoupling network that mimics real-world conditions. Adjustments are made to ensure the declared input voltage remains stable to prevent skewed results.",
+        "한글": "새로운 산업 표준의 개발은 대체 시험 방법으로 시험하는 것의 중요성을 강조합니다. 효과적인 검증을 위해 피시험 장치는 실제 환경을 모방하는 결합/감결합회로망에 연결됩니다. 왜곡된 결과를 방지하기 위해 공표된 입력 전압이 안정적으로 유지되도록 조정이 이루어집니다."
+      }
+    ]
+  },
+  {
+    "cluster": "측정 및 시험",
+    "sampled_terms": {
+      "indication": "지시 값",
+      "chamber validation": "챔버 검증",
+      "calibration": "교정",
+      "average detector": "평균치 검파기"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "The indication from the initial testing suggested that the chamber validation process was incomplete. To address this, we performed a thorough chamber validation and ensured that all instruments were subject to calibration. Additionally, the average detector was employed to guarantee accurate readings.",
+        "한글": "초기 테스트의 지시 값은 챔버 검증 과정이 불완전함을 시사했습니다. 이를 해결하기 위해 철저한 챔버 검증을 수행하고 모든 장비에 교정을 적용하였습니다. 또한, 정확한 측정을 보장하기 위해 평균치 검파기를 사용했습니다."
+      },
+      {
+        "영문": "During the system upgrade, it is crucial to conduct a calibration of all measurement devices. This ensures that the indication provided by the average detector aligns with expected standards. The chamber validation was repeated to maintain optimal performance levels.",
+        "한글": "시스템 업그레이드 중에는 모든 측정 장비의 교정이 중요합니다. 이는 평균치 검파기가 제공하는 지시 값이 예상 기준에 맞도록 합니다. 최상의 성능 수준을 유지하기 위해 챔버 검증을 반복했습니다."
+      },
+      {
+        "영문": "The recent inspection revealed discrepancies in the indication values, prompting a comprehensive chamber validation. It was imperative that the calibration of sensors was also checked, and we utilized an average detector for consistent data acquisition.",
+        "한글": "최근 검사에서는 지시 값의 불일치가 발견되어, 이를 해결하기 위해 포괄적인 챔버 검증을 실 시했습니다. 센서의 교정 상태를 확인하는 것도 필수적이었고, 일관된 데이터 획득을 위해 평균치 검파기를 활용했습니다."
+      }
+    ]
+  },
+  {
+    "cluster": "측정 및 시험",
+    "sampled_terms": {
+      "conformance test": "적합 시험",
+      "inherent uncertainty": "고유 불확도(불확정도) $u_inherent$",
+      "compliance test site": "적합성 시험장",
+      "adjustment (of a measuring system)": "조정(측정시스템의)"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "The conformance test is an essential part of ensuring that new products meet the necessary standards. It is conducted at a compliance test site to verify product performance under specified conditions. The inherent uncertainty of measurements, denoted as $u_inherent$, must be accounted for in the final analysis.",
+        "한글": "적합 시험은 새로운 제품이 필요한 기준을 충족하는지를 보장하는 데 필수적인 부분입니다. 이는 명시된 조건 하에서 제품 성능을 검증하기 위해 적합성 시험장에서 수행됩니다. 측정의 고유 불확도(불확정도) $u_inherent$는 최종 분석에서 반드시 고려되어야 합니다."
+      },
+      {
+        "영문": "Before conducting any adjustment (of a measuring system), it is critical to assess the inherent uncertainty involved. This ensures any changes do not compromise the integrity of the conformance test results. Conducting such assessments systematically at the compliance test site is a best practice in the industry.",
+        "한글": "조정(측정시스템의)을 수행하기 전에 관련된 고유 불확도(불확정도)를 평가하는 것이 중요합니다. 이를 통해 어떠한 변경도 적합 시험 결과의 무결성을 훼손하지 않도록 보장합니다. 이러한 평가를 적합성 시험장에서 체계적으로 수행하는 것이 업계에서 권장되는 모범 사례입니다."
+      },
+      {
+        "영문": "The compliance test site must be equipped with advanced tools to reduce inherent uncertainty. Successful adjustment (of a measuring system) can greatly enhance the reliability of the conformance test. Proper documentation of all steps is essential to ensure repeatability and accuracy.",
+        "한글": "적합성 시험장은 고유 불확도를 줄이기 위해 첨단 도구를 갖추어야 합니다. 측정시스템의 조정이 성공적으로 이루어지면 적합 시험의 신뢰성을 크게 향상시킬 수 있습니다. 모든 절차의 적절한 문서화는 반복 가능성과 정확성을 보장하는 데 필수적입니다."
+      }
+    ]
+  },
+  {
+    "cluster": "측정 및 시험",
+    "sampled_terms": {
+      "declared supply voltage": "공표된 전원 전압",
+      "correlation algorithm": "상관관계 알고리즘",
+      "absorbing clamp measurement method": "흡수 클램프 측정방법",
+      "function": "기능"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "The newly developed power system includes a declared supply voltage of 230V. Engineers have utilized an advanced correlation algorithm to predict the system's behavior under various load conditions. Moreover, compliance with safety standards was confirmed using the absorbing clamp measurement method. This ensures that the system functions efficiently and safely even in fluctuating scenarios.",
+        "한글": "새로 개발된 전원 시스템은 공표된 전원 전압이 230V입니다. 엔지니어들은 다양한 부하 조건에서 시스템의 동작을 예측하기 위해 고급 상관관계 알고리즘을 활용했습니다. 또한, 안전 기준 준수는 흡수 클램프 측정방법을 통해 확인되었습니다. 이는 변동되는 시나리오에서도 시스템이 효율적이고 안전하게 기능할 수 있도록 보장합니다."
+      },
+      {
+        "영문": "The automotive electronic control unit was tested with a detailed analysis of its declared supply voltage. To optimize performance, a correlation algorithm was instrumental in identifying key parameters affecting functionality. The absorbing clamp measurement method was employed to ascertain electromagnetic compatibility, which is crucial for the unit's dependable function.",
+        "한글": "자동차 전자 제어 장치는 공표된 전원 전압에 대한 자세한 분석을 통해 테스트되었습니다. 성능 최적화를 위해 상관관계 알고리즘은 기능성에 영향을 미치는 주요 매개 변수를 식별하는 데 유용했습니다. 흡수 클램프 측정방법이 전자기 호환성을 확인하는 데 사용되었으며, 이는 장치의 신뢰할 수 있는 기능을 위해 필수적입니다."
+      },
+      {
+        "영문": "In designing the power grid, the declared supply voltage was set to 330kV to ensure stability across the network. A correlation algorithm was applied to assess potential impacts on grid performance. Additionally, an absorbing clamp measurement method was used to validate the grid's electromagnetic interference parameters. These steps guarantee that the power grid functions reliably in diverse environmental conditions.",
+        "한글": "전력망 설계에서 네트워크 전반의 안정성을 보장하기 위해 공표된 전원 전압이 330kV로 설정되었습니다. 그리드 성능에 미치는 잠재적 영향을 평가하기 위해 상관관계 알고리즘이 적용되었습니다. 또한, 흡수 클램프 측정방법을 사용하여 그리드의 전자기 간섭 매개 변수를 검증했습니다. 이러한 단계들은 전력망이 다양한 환경 조건에서 신뢰성 있게 기능하도록 보장합니다."
+      }
+    ]
+  },
+  {
+    "cluster": "측정 및 시험",
+    "sampled_terms": {
+      "conformity assessment": "적합성 평가",
+      "current injection test": "전류 주입 시험",
+      "differential mode circuit": "차동 모드 회로",
+      "idle state": "유휴 상태"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "A conformity assessment is essential to ensure that products meet all regulatory requirements. During the process, the current injection test is performed to evaluate the product's safety. It is particularly crucial for devices incorporating differential mode circuits. When the device returns to its idle state after testing, it should maintain its reliability and integrity.",
+        "한글": "적합성 평가는 제품이 모든 규제 요건을 충족하는지를 보장하기 위해 필수적입니다. 이 과정 중에 전류 주입 시험이 수행되어 제품의 안전성을 평가합니다. 특히 차동 모드 회로를 포함한 장치에서는 이 시험이 매우 중요합니다. 시험 후 장치가 유휴 상태로 돌아가면 신뢰성과 무결성을 유지해야 합니다."
+      },
+      {
+        "영문": "Manufacturers are required to undergo a conformity assessment to verify compliance with international standards. This includes conducting a current injection test on the differential mode circuit components. The equipment must remain in an idle state until the assessment is completed to prevent any potential malfunctions.",
+        "한글": "제조업체는 국제 표준 준수를 검증하기 위해 적합성 평가를 받아야 합니다. 여기에는 차동 모드 회로 구성 요소에 대한 전류 주입 시험이 포함됩니다. 평가가 완료될 때까지 장비는 유휴 상태를 유지하여 잠재적인 오작동을 방지해야 합니다."
+      },
+      {
+        "영문": "The conformity assessment process can help identify defects in electronic equipment. A critical part of this evaluation is the current injection test, particularly for systems using differential mode circuits. Once the tests are finalized, the system should return to its idle state without any issues.",
+        "한글": "적합성 평가 과정은 전자 장비의 결함을 식별하는 데 도움이 될 수 있습니다. 이 평가의 중요한 부분은 특히 차동 모드 회로를 사용하는 시스템에 대한 전류 주입 시험입니다. 시험이 완료되면 시스템은 문제없이 유휴 상태로 돌아가야 합니다."
+      }
+    ]
+  },
+  {
+    "cluster": "측정 및 시험",
+    "sampled_terms": {
+      "contact discharge method": "접촉 방전법",
+      "absorbing clamp test site": "흡수 클램프 시험장",
+      "calibration test site": "교정 시험장",
+      "fundamental component": "기본 성분"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "The contact discharge method is primarily utilized in the testing of electronic products to ensure their durability against Electrostatic Discharge (ESD). At the absorbing clamp test site, products are assessed under controlled variables to measure their susceptibility. Results are further verified using measurements from the calibration test site, ensuring that the fundamental component of each device remains unaffected.",
+        "한글": "접촉 방전법은 주로 전자 제품의 내구성을 정전기 방전에 대해 시험하기 위해 사용됩니다. 흡수 클램프 시험장에서 제품은 통제된 변수 하에 취약성이 평가됩니다. 결과는 교정 시험장의 측정을 통해 추가로 확인되며, 이를 통해 각 장치의 기본 성분이 영향을 받지 않음을 보장합니다."
+      },
+      {
+        "영문": "When testing for electromagnetic interference, engineers deploy the contact discharge method to replicate potential real-world scenarios. At the absorbing clamp test site, data is gathered to establish the device's behavior under different frequencies. Such findings are validated at the calibration test site, focusing on maintaining the integrity of the device’s fundamental components.",
+        "한글": "전자기 간섭 시험 시, 엔지니어들은 현실 시나리오를 모사하기 위해 접촉 방전법을 사용합니다. 흡수 클램프 시험장에서 다양한 주파수 하에서 장치의 동작을 확인하기 위해 데이터를 수집합니다. 이 같은 결과는 교정 시험장에서 기기의 기본 성분의 무결성을 유지하는 데 중점을 두어 검증됩니다."
+      },
+      {
+        "영문": "In compliance with international standards, the contact discharge method is employed to test the resilience of new devices. At the absorbing clamp test site, engineers analyze the effect of emissions on the fundamental component. Calibration test sites are critical to validate the accuracy of these analyses and ensure consistent performance under varied conditions.",
+        "한글": "국제 표준을 준수하기 위해 접촉 방전법은 신제품의 탄력성을 시험하는 데 사용됩니다. 흡수 클램프 시험장에서 엔지니어들은 방출이 기본 성분에 미치는 영향을 분석합니다. 이러한 분석의 정확성을 검증하고 다양한 조건에서 일관된 성능을 보장하기 위해 교정 시험장은 필수적입니다."
+      }
+    ]
+  },
+  {
+    "cluster": "통신 및 데이터",
+    "sampled_terms": {
+      "aperture": "개구, 구멍, 벌어진 틈",
+      "associated port": "연관 포트",
+      "antenna reference point": "안테나 기준점",
+      "antenna matching unit": "안테나 정합 유닛"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "The antenna system design involves an aperture that allows signals to pass efficiently. The antenna matching unit ensures that the impedance is properly balanced, optimizing the signal transmission. The antenna reference point is used for precise alignment and calibration. Additionally, the system uses an associated port to connect with other network components.",
+        "한글": "안테나 시스템 설계에는 신호가 효율적으로 통과할 수 있는 개구가 포함됩니다. 안테나 정합 유닛은 임피던스를 적절히 조정하여 신호 전송을 최적화합니다. 안테나 기준점은 정확한 정렬 및 보정을 위해 사용됩니다. 또한, 시스템은 다른 네트워크 구성 요소와 연결하기 위해 연관 포트를 사용합니다."
+      },
+      {
+        "영문": "In communication systems, the antenna reference point is crucial for establishing the correct positioning of antennas. The aperture at the antenna's end affects the quality of signal reception. An antenna matching unit is integrated to handle impedance variations. To facilitate communication with other devices, an associated port is utilized to ensure compatibility.",
+        "한글": "통신 시스템에서는 안테나의 정확한 위치 선정을 위해 안테나 기준점이 매우 중요합니다. 안테나 끝의 개구는 신호 수신 품질에 영향을 미칩니다. 안테나 정합 유닛이 임피던스 변형을 처리하기 위해 통합되어 있습니다. 다른 장치와의 통신을 용이하게 하기 위해 연관 포트가 호환성을 보장하는 데 사용됩니다."
+      },
+      {
+        "영문": "The design of a modern antenna array includes careful consideration of the aperture to enhance performance. At the core of the system, the antenna matching unit plays a pivotal role in reducing signal loss. The antenna reference point aids in maintaining an optimal orientation. For synchronization with other network interfaces, an associated port is essential.",
+        "한글": "최신 안테나 배열의 설계에는 성능 향상을 위한 개구에 대한 신중한 고려가 포함됩니다. 시스템의 핵심에서 안테나 정합 유닛은 신호 손실을 줄이는 데 중요한 역할을 합니다. 안테나 기준점은 최적의 방향을 유지하는 데 도움을 줍니다. 다른 네트워크 인터페이스와의 동기화를 위해 연관 포트가 필수적입니다."
+      }
+    ]
+  },
+  {
+    "cluster": "통신 및 데이터",
+    "sampled_terms": {
+      "analogue interface": "아날로그 접속",
+      "aperture coupling regime": "개구부 결합 영역",
+      "antenna": "안테나",
+      "aperture port-of-entry": "입력의 개구 인입점(입력의 개구 단자)"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "In modern communication systems, the analogue interface plays a critical role in ensuring seamless connectivity between various devices. An antenna can optimize signal reception when used in conjunction with an efficient analogue interface. Engineers must pay careful attention to the aperture coupling regime to minimize interference in complex environments.",
+        "한글": "현대 통신 시스템에서 아날로그 접속은 다양한 장치 간의 원활한 접속을 보장하는 데 중요한 역할을 합니다. 안테나는 효율적인 아날로그 접속과 함께 사용될 때 신호 수신을 최적화할 수 있습니다. 복잡한 환경에서 간섭을 최소화하려면 엔지니어가 개구부 결합 영역에 주의를 기울여야 합니다."
+      },
+      {
+        "영문": "The design of an antenna often includes considerations for the aperture port-of-entry, which serves as a crucial gateway for signal transmission. Accurate configuration of the analogue interface is necessary to maintain the integrity of transmitted signals through the aperture port-of-entry. This ensures that data integrity is preserved in demanding applications.",
+        "한글": "안테나 설계에는 종종 신호 전송을 위한 중요한 게이트웨이 역할을 하는 입력의 개구 인입점에 대한 고려가 포함됩니다. 아날로그 접속의 정확한 설정은 입력의 개구 인입점을 통해 전송되는 신호의 무결성을 유지하는 데 필요합니다. 이는 까다로운 응용 분야에서 데이터 무결성을 보장합니다."
+      },
+      {
+        "영문": "To enhance the efficiency of antenna systems, examining the aperture coupling regime is essential. This examination helps in tailoring the analogue interface to manage signal strengths effectively across various environmental conditions. The aperture port-of-entry should be strategically designed to minimize signal degradation.",
+        "한글": "안테나 시스템의 효율성을 높이기 위해서는 개구부 결합 영역을 검토하는 것이 필수적입니다. 이 검토는 다양한 환경 조건에서 신호 강도를 효과적으로 관리하기 위해 아날로그 접속을 조정하는 데 도움이 됩니다. 입력의 개구 인입점은 신호 저하를 최소화하도록 전략적으로 설계되어야 합니다."
+      }
+    ]
+  }
+]

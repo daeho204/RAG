@@ -1,0 +1,25 @@
+[
+  {
+    "cluster": "전원 및 에너지",
+    "sampled_terms": {
+      "agreed power": "계약전력",
+      "a.c. power port": "교류전원 포트",
+      "air insulated substation": "공기 절연 변전소",
+      "bias voltage": "바이어스 전압"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "The installation of an air insulated substation requires careful consideration of several factors, including the agreed power levels and the design of the a.c. power port. It is crucial to ensure that the bias voltage is appropriately set to optimize the performance of the entire electrical system.",
+        "한글": "공기 절연 변전소의 설치는 계약전력 수준과 교류전원 포트의 설계를 포함한 여러 요소를 신중히 고려해야 합니다. 전체 전력 시스템의 성능을 최적화하기 위해 바이어스 전압이 적절히 설정되는 것이 중요합니다."
+      },
+      {
+        "영문": "To maintain the reliability of an a.c. power port, engineers adjust the bias voltage according to the site's agreed power. This is especially important in an air insulated substation where environmental factors can affect the electrical parameters.",
+        "한글": "교류전원 포트의 신뢰성을 유지하기 위해 엔지니어들은 현장의 계약전력에 따라 바이어스 전압을 조정합니다. 이는 환경적 요소가 전기적 매개 변수에 영향을 미칠 수 있는 공기 절연 변전소에서 특히 중요합니다."
+      },
+      {
+        "영문": "Designing an air insulated substation involves calculating the agreed power and ensuring the a.c. power port can handle the set parameters. Any deviations in the bias voltage must be monitored to prevent operational disturbances.",
+        "한글": "공기 절연 변전소를 설계하려면 계약전력을 계산하고 교류전원 포트가 설정된 매개 변수를 처리할 수 있도록 보장해야 합니다. 바이어스 전압의 어떤 편차도 운영 장애를 방지하기 위해 모니터링 되어야 합니다."
+      }
+    ]
+  }
+]

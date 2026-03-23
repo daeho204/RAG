@@ -1,0 +1,352 @@
+[
+  {
+    "cluster": "전원 및 에너지 관련",
+    "sampled_terms": {
+      "agreed power": "계약전력",
+      "AC mains power port": "직류 주전원 포트",
+      "a.c. power port": "교류전원 포트",
+      "active infeed converter": "능동 인피드 컨버터"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "The system requires a stable power supply. Ensure the **AC mains power port** is properly connected to a grounded outlet. The maximum **agreed power** for this unit is 15kVA, and exceeding this limit may cause operational issues. Furthermore, the **active infeed converter** regulates voltage fluctuations to protect sensitive components.",
+        "한글": "시스템은 안정적인 전원 공급을 필요로 합니다. 접지된 콘센트에 **교류전원 포트**가 제대로 연결되었는지 확인하십시오. 이 장치의 최대 **계약전력**은 15kVA이며, 이 제한을 초과하면 작동 문제가 발생할 수 있습니다. 또한, **능동 인피드 컨버터**는 전압 변동을 조절하여 민감한 구성 요소를 보호합니다."
+      },
+      {
+        "영문": "During installation, verify the input voltage matches the specifications. The **a.c. power port** accepts a wide range of voltages, but proper configuration is crucial. The **agreed power** from the utility company should be sufficient for all connected devices. The **active infeed converter** plays a vital role in maintaining a consistent power output.",
+        "한글": "설치하는 동안 입력 전압이 사양과 일치하는지 확인하십시오. **교류전원 포트**는 다양한 전압을 허용하지만, 올바른 구성이 중요합니다. 전력 회사로부터 공급받는 **계약전력**은 연결된 모든 장치에 충분해야 합니다. **능동 인피드 컨버터**는 일관된 전력 출력을 유지하는 데 중요한 역할을 합니다."
+      },
+      {
+        "영문": "To ensure optimal performance, avoid overloading the circuit. The **active infeed converter** automatically adjusts to changes in load, but it has limitations. The **AC mains power port** should be inspected regularly for any signs of damage.  The **agreed power** capacity must be considered when adding new equipment.",
+        "한글": "최적의 성능을 보장하기 위해 회로에 과부하가 걸리지 않도록 하십시오. **능동 인피드 컨버터**는 부하 변화에 자동으로 조절되지만, 제한 사항이 있습니다. **직류 주전원 포트**는 손상 징후가 있는지 정기적으로 검사해야 합니다. 새 장비를 추가할 때 **계약전력** 용량을 고려해야 합니다."
+      },
+      {
+        "영문": "This device features a redundant power supply system. It includes both a standard **a.c. power port** and a backup power input. The **agreed power** level dictates the overall system capacity. The **active infeed converter** seamlessly switches between power sources to prevent interruptions.",
+        "한글": "이 장치는 중복 전원 공급 시스템을 특징으로 합니다. 표준 **교류전원 포트**와 백업 전원 입력이 모두 포함되어 있습니다. **계약전력** 수준은 전체 시스템 용량을 결정합니다. **능동 인피드 컨버터**는 전원 공급 간에 원활하게 전환되어 중단을 방지합니다."
+      },
+      {
+        "영문": "The system administrator must configure the power settings correctly.  The **agreed power** is a key parameter in the energy management system.  Power is supplied via the **AC mains power port**, and the **active infeed converter** ensures stable power delivery even during peak demand. A faulty **a.c. power port** can cause system instability.",
+        "한글": "시스템 관리자는 전원 설정을 올바르게 구성해야 합니다. **계약전력**은 에너지 관리 시스템의 핵심 파라미터입니다. 전원은 **직류 주전원 포트**를 통해 공급되며, **능동 인피드 컨버터**는 최대 수요 시에도 안정적인 전력 공급을 보장합니다. **교류전원 포트**에 결함이 있으면 시스템 불안정을 초래할 수 있습니다."
+      },
+      {
+        "영문": "For safety reasons, always disconnect the **AC mains power port** before performing any maintenance.  The **agreed power** limit should be clearly displayed on the device's label. The **active infeed converter** is designed to mitigate harmonic distortion.  Ensure the **a.c. power port** is compatible with the local power grid.",
+        "한글": "안전상의 이유로 유지보수를 수행하기 전에 항상 **교류전원 포트**를 분리하십시오. **계약전력** 제한은 장치 레이블에 명확하게 표시되어야 합니다. **능동 인피드 컨버터**는 고조파 왜곡을 완화하도록 설계되었습니다. **직류 주전원 포트**가 현지 전력망과 호환되는지 확인하십시오."
+      }
+    ]
+  },
+  {
+    "cluster": "안테나 및 무선 통신 관련",
+    "sampled_terms": {
+      "antenna factor, free-space": "자유공간 안테나 인자",
+      "antenna matching unit": "안테나 정합 유닛",
+      "antenna port": "안테나 포트",
+      "antenna beamwidth": "안테나 빔폭"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "The performance of the wireless communication system is heavily influenced by the characteristics of the transmitting and receiving antennas. A key parameter for characterizing antenna efficiency is the **antenna factor**, which, when combined with the **free-space** path loss, allows for accurate signal strength prediction. Proper design of the **antenna matching unit** is crucial to minimize signal reflections and maximize power transfer. The signal is then fed into the **antenna port** for radiation.",
+        "한글": "무선 통신 시스템의 성능은 송신 및 수신 안테나의 특성에 크게 영향을 받습니다. 안테나 효율을 특징짓는 핵심 파라미터는 **자유공간 안테나 인자**이며, 이는 자유 공간 경로 손실과 결합하여 정확한 신호 강도 예측을 가능하게 합니다. 신호 반사를 최소화하고 전력 전달을 최대화하기 위해서는 **안테나 정합 유닛**의 적절한 설계가 중요합니다. 그 후 신호는 방사를 위해 **안테나 포트**로 공급됩니다."
+      },
+      {
+        "영문": "In a phased array antenna system, understanding the **antenna beamwidth** is vital for achieving desired coverage and minimizing interference. The **antenna matching unit** plays a significant role in maintaining impedance matching across the entire operating frequency band. Measurements of the **antenna factor** are often performed in an anechoic chamber to eliminate reflections. The output is connected to the **antenna port** via a low-loss coaxial cable.",
+        "한글": "위상 배열 안테나 시스템에서 원하는 커버리지를 달성하고 간섭을 최소화하기 위해서는 **안테나 빔폭**을 이해하는 것이 중요합니다. **안테나 정합 유닛**은 전체 작동 주파수 대역에서 임피던스 정합을 유지하는 데 중요한 역할을 합니다. **자유공간 안테나 인자** 측정은 종종 반사를 제거하기 위해 무반향실에서 수행됩니다. 출력은 저손실 동축 케이블을 통해 **안테나 포트**에 연결됩니다."
+      },
+      {
+        "영문": "To accurately measure the radiated power, it's important to calibrate the measurement setup using a known source and the **antenna factor** in **free-space**. The **antenna beamwidth** determines the spatial distribution of the radiated energy. An improperly designed **antenna matching unit** can lead to significant signal loss. The connection to the transceiver is established through the **antenna port**.",
+        "한글": "방사 전력을 정확하게 측정하려면, 알려진 소스와 **자유공간 안테나 인자**를 사용하여 측정 설정을 보정하는 것이 중요합니다. **안테나 빔폭**은 방사 에너지의 공간적 분포를 결정합니다. 설계가 잘못된 **안테나 정합 유닛**은 상당한 신호 손실을 초래할 수 있습니다. 트랜시버와의 연결은 **안테나 포트**를 통해 설정됩니다."
+      },
+      {
+        "영문": "The design of the antenna system must consider the desired **antenna beamwidth** to ensure optimal signal coverage. A well-designed **antenna matching unit** minimizes VSWR and maximizes power transfer. The **antenna factor** is used to convert the electric field strength to power density in **free-space**. Data is transmitted and received through the designated **antenna port**.",
+        "한글": "안테나 시스템 설계는 최적의 신호 커버리지를 보장하기 위해 원하는 **안테나 빔폭**을 고려해야 합니다. 잘 설계된 **안테나 정합 유닛**은 VSWR을 최소화하고 전력 전달을 최대화합니다. **자유공간 안테나 인자**는 전기장 강도를 자유 공간에서의 전력 밀도로 변환하는 데 사용됩니다. 데이터는 지정된 **안테나 포트**를 통해 송신 및 수신됩니다."
+      },
+      {
+        "영문": "When evaluating antenna performance, the **antenna factor** is a crucial metric, especially when performing measurements in **free-space**. The **antenna beamwidth** influences the system's ability to reject interference from unwanted directions. The **antenna matching unit** ensures efficient power transfer between the transmitter and the antenna. The **antenna port** must be properly sealed to prevent environmental damage.",
+        "한글": "안테나 성능을 평가할 때 **자유공간 안테나 인자**는 특히 자유 공간에서 측정을 수행할 때 중요한 지표입니다. **안테나 빔폭**은 원치 않는 방향으로부터의 간섭을 제거하는 시스템의 능력에 영향을 미칩니다. **안테나 정합 유닛**은 트랜시버와 안테나 간의 효율적인 전력 전달을 보장합니다. **안테나 포트**는 환경적 손상을 방지하기 위해 적절하게 밀봉되어야 합니다."
+      },
+      {
+        "영문": "For accurate over-the-air testing, the **antenna factor** needs to be carefully calibrated in a controlled **free-space** environment. The **antenna beamwidth** should be wide enough to cover the target area. An effective **antenna matching unit** will maintain a stable impedance match across varying temperatures. The **antenna port** connector type must be compatible with the testing equipment.",
+        "한글": "정확한 OTA(Over-The-Air) 테스트를 위해서는 **자유공간 안테나 인자**를 제어된 자유 공간 환경에서 신중하게 보정해야 합니다. **안테나 빔폭**은 대상 영역을 커버할 수 있을 만큼 충분히 넓어야 합니다. 효과적인 **안테나 정합 유닛**은 다양한 온도에서 안정적인 임피던스 정합을 유지합니다. **안테나 포트** 커넥터 유형은 테스트 장비와 호환되어야 합니다."
+      }
+    ]
+  },
+  {
+    "cluster": "안테나 및 무선 통신 관련",
+    "sampled_terms": {
+      "antenna beam": "안테나 빔",
+      "antenna pair reference site attenuation": "안테나 쌍 기준시험장 감쇠량 $A_{APR}$",
+      "antenna": "안테나",
+      "antenna factor": "안테나 인자"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "The performance of the wireless communication system is highly dependent on the characteristics of the **antenna**. Optimizing the **antenna beam** pattern is crucial for maximizing signal strength and minimizing interference. Accurate measurement of the **antenna factor** is essential for calibrating the receiver and ensuring reliable data transmission. Furthermore, the **antenna pair reference site attenuation** $A_{APR}$ needs to be carefully considered when deploying multiple antennas in close proximity to avoid signal degradation.",
+        "한글": "무선 통신 시스템의 성능은 **안테나**의 특성에 크게 의존한다. 신호 강도를 최대화하고 간섭을 최소화하기 위해서는 **안테나 빔** 패턴을 최적화하는 것이 중요하다. 정확한 **안테나 인자** 측정은 수신기를 보정하고 신뢰성 있는 데이터 전송을 보장하는 데 필수적이다. 또한, 근접한 위치에 여러 개의 안테나를 배치할 때 신호 저하를 방지하기 위해 **안테나 쌍 기준시험장 감쇠량** $A_{APR}$을 신중하게 고려해야 한다."
+      },
+      {
+        "영문": "During the site survey, engineers measured the **antenna factor** across a range of frequencies to characterize the receiving performance of the system. The results indicated a significant variation in signal strength, influenced by the directionality of the **antenna beam**.  Calculating the **antenna pair reference site attenuation** $A_{APR}$ between two strategically placed **antenna** units was necessary to validate the overall system design.",
+        "한글": "현장 조사 중 엔지니어들은 시스템의 수신 성능을 파악하기 위해 다양한 주파수에서 **안테나 인자**를 측정했다. 측정 결과는 **안테나 빔**의 방향성에 영향을 받아 신호 강도에 상당한 변화가 있음을 보여주었다. 전체 시스템 설계를 검증하기 위해 전략적으로 배치된 두 개의 **안테나** 유닛 간의 **안테나 쌍 기준시험장 감쇠량** $A_{APR}$을 계산하는 것이 필요했다."
+      },
+      {
+        "영문": "To mitigate interference in a dense urban environment, a beamforming technique was implemented, dynamically adjusting the **antenna beam** to focus on the intended user. The **antenna** was carefully selected for its gain and radiation pattern.  The **antenna factor** was used to normalize the received signal strength, and the **antenna pair reference site attenuation** $A_{APR}$ was a key parameter in the interference analysis.",
+        "한글": "혼잡한 도시 환경에서 간섭을 완화하기 위해 의도된 사용자에게 집중하도록 **안테나 빔**을 동적으로 조정하는 빔포밍 기술이 구현되었다. **안테나**는 이득 및 방사 패턴을 고려하여 신중하게 선택되었다. **안테나 인자**는 수신 신호 강도를 정규화하는 데 사용되었으며, **안테나 쌍 기준시험장 감쇠량** $A_{APR}$은 간섭 분석의 핵심 파라미터였다."
+      },
+      {
+        "영문": "The calibration procedure involved measuring the **antenna factor** of each **antenna** to ensure accurate signal level measurements. The shape of the **antenna beam** was verified using a near-field scanner.  Knowing the **antenna pair reference site attenuation** $A_{APR}$ allows for precise power budget calculations in the system design.",
+        "한글": "보정 절차에는 정확한 신호 레벨 측정을 위해 각 **안테나**의 **안테나 인자**를 측정하는 과정이 포함되었다. **안테나 빔**의 모양은 근접장 스캐너를 사용하여 검증되었다. **안테나 쌍 기준시험장 감쇠량** $A_{APR}$을 알면 시스템 설계에서 정확한 전력 예산 계산이 가능하다."
+      },
+      {
+        "영문": "The system utilizes a phased array **antenna** to steer the **antenna beam** electronically, providing flexibility in coverage.  The **antenna factor** is critical for determining the effective isotropic radiated power (EIRP).  Furthermore, the **antenna pair reference site attenuation** $A_{APR}$ is monitored continuously to detect any changes in the propagation environment.",
+        "한글": "이 시스템은 위상 배열 **안테나**를 사용하여 **안테나 빔**을 전자적으로 조향하여 적용 범위를 유연하게 조정한다. **안테나 인자**는 유효 등방성 복사 전력(EIRP)을 결정하는 데 중요하다. 또한, 전파 환경의 변화를 감지하기 위해 **안테나 쌍 기준시험장 감쇠량** $A_{APR}$이 지속적으로 모니터링된다."
+      },
+      {
+        "영문": "In a MIMO system, the performance is affected by the correlation between signals received by the **antenna** elements. The **antenna beam** can be shaped to maximize diversity gain. The **antenna factor** provides information about the antenna's sensitivity to different polarizations.  A thorough understanding of the **antenna pair reference site attenuation** $A_{APR}$ is required for optimal link adaptation.",
+        "한글": "MIMO 시스템에서는 **안테나** 요소에 의해 수신된 신호 간의 상관 관계가 성능에 영향을 미친다. **안테나 빔**은 다양성 이득을 극대화하도록 형성할 수 있다. **안테나 인자**는 안테나가 다양한 편파에 대한 민감도에 대한 정보를 제공한다. 최적의 링크 적응을 위해서는 **안테나 쌍 기준시험장 감쇠량** $A_{APR}$에 대한 철저한 이해가 필요하다."
+      }
+    ]
+  },
+  {
+    "cluster": "EMC 시험 및 측정 관련",
+    "sampled_terms": {
+      "absorbing clamp test site": "흡수 클램프 시험장",
+      "anechoic chamber": "무반사 챔버",
+      "anechoic material": "무반사 재료",
+      "absorber lined shielded enclosure": "전자파 흡수체가 부착된 전자파 차폐실"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "Electromagnetic compatibility (EMC) testing is crucial for ensuring the reliable operation of electronic devices.  A key component of this testing process is the use of an **anechoic chamber** to simulate a free-space environment, minimizing reflections that could interfere with accurate measurements.  Further analysis often requires verification at an **absorbing clamp test site** to assess conducted emissions and immunity.  The chamber's walls are lined with **anechoic material** to achieve optimal performance, and sensitive equipment is sometimes housed within an **absorber lined shielded enclosure** for added protection.",
+        "한글": "전자파 적합성(EMC) 시험은 전자 장치의 안정적인 작동을 보장하는 데 매우 중요하다. 이러한 시험 과정의 핵심 요소 중 하나는 정확한 측정을 방해할 수 있는 반사를 최소화하여 자유 공간 환경을 시뮬레이션하는 **무반사 챔버**의 사용이다. 추가적인 분석은 종종 전도성 방사 및 내성 성능을 평가하기 위해 **흡수 클램프 시험장**에서 검증을 필요로 한다. 최적의 성능을 달성하기 위해 챔버 벽은 **무반사 재료**로 라이닝되어 있으며, 민감한 장비는 추가적인 보호를 위해 **전자파 흡수체가 부착된 전자파 차폐실** 내에 배치되는 경우가 있다."
+      },
+      {
+        "영문": "To accurately measure the radiation pattern of a new antenna, a controlled environment is essential. We utilize an **anechoic chamber** to eliminate unwanted reflections.  Precise measurements of the antenna's performance under various conditions are then conducted.  The performance is also evaluated at the **absorbing clamp test site** to verify the antenna’s compliance with regulatory standards.  The entire setup, including the measurement equipment, is often placed inside an **absorber lined shielded enclosure** to prevent external interference, utilizing specialized **anechoic material** for optimal signal isolation.",
+        "한글": "새로운 안테나의 방사 패턴을 정확하게 측정하기 위해서는 제어된 환경이 필수적이다. 원치 않는 반사를 제거하기 위해 **무반사 챔버**를 사용한다. 그런 다음 다양한 조건에서 안테나의 성능에 대한 정밀한 측정이 수행된다. 안테나의 성능은 또한 **흡수 클램프 시험장**에서 평가되어 규제 표준 준수 여부를 확인한다. 측정 장비를 포함한 전체 설정은 종종 외부 간섭을 방지하기 위해 **전자파 흡수체가 부착된 전자파 차폐실** 내에 배치되며, 최적의 신호 분리를 위해 특수 **무반사 재료**를 사용한다."
+      },
+      {
+        "영문": "The development of 5G technology demands rigorous testing procedures.  One such procedure involves characterizing the over-the-air performance of mobile devices within an **anechoic chamber**.  This allows engineers to isolate and analyze the device’s signal characteristics.  The shielded environment also includes an **absorber lined shielded enclosure** for sensitive receiver testing.  Furthermore, conducted testing is performed at an **absorbing clamp test site** to assess cable radiation, and the chamber utilizes specialized **anechoic material** to minimize reflections from all surfaces.",
+        "한글": "5G 기술 개발은 엄격한 시험 절차를 요구한다. 이러한 절차 중 하나는 **무반사 챔버** 내에서 모바일 장치의 공중 성능을 특성화하는 것이다. 이를 통해 엔지니어는 장치의 신호 특성을 분리하고 분석할 수 있다. 차폐된 환경에는 민감한 수신기 테스트를 위한 **전자파 흡수체가 부착된 전자파 차폐실**도 포함된다. 또한, 케이블 방사를 평가하기 위해 **흡수 클램프 시험장**에서 전도성 테스트를 수행하며, 챔버는 모든 표면에서의 반사를 최소화하기 위해 특수 **무반사 재료**를 사용한다."
+      },
+      {
+        "영문": "When evaluating the susceptibility of electronic control units (ECUs) to electromagnetic interference (EMI), a comprehensive testing approach is necessary. This includes performing tests within an **anechoic chamber** to simulate a realistic operating environment.  Specific tests regarding cable harness integrity are conducted at an **absorbing clamp test site**. To further mitigate external noise, the ECU is often placed within an **absorber lined shielded enclosure**. The walls of the chamber are covered with **anechoic material** to ensure accurate and repeatable results.",
+        "한글": "전자 제어 장치(ECU)가 전자기 간섭(EMI)에 얼마나 취약한지를 평가할 때는 종합적인 테스트 접근 방식이 필요하다. 여기에는 실제 작동 환경을 시뮬레이션하기 위해 **무반사 챔버** 내에서 테스트를 수행하는 것이 포함된다. 케이블 하니스 무결성과 관련된 특정 테스트는 **흡수 클램프 시험장**에서 수행된다. 외부 노이즈를 더욱 완화하기 위해 ECU는 종종 **전자파 흡수체가 부착된 전자파 차폐실** 내에 배치된다. 정확하고 반복 가능한 결과를 보장하기 위해 챔버 벽은 **무반사 재료**로 덮여 있다."
+      },
+      {
+        "영문": "For pre-compliance testing, we often utilize a smaller, cost-effective **absorbing clamp test site**. However, for official certification, measurements must be performed in a fully calibrated **anechoic chamber**.  The chamber’s performance is reliant on the quality of the **anechoic material** used in its construction.  Sensitive pre-amplifiers and spectrum analyzers are protected from external interference by being housed in an **absorber lined shielded enclosure** during the testing process.",
+        "한글": "사전 적합성 테스트의 경우, 종종 더 작고 비용 효율적인 **흡수 클램프 시험장**을 사용한다. 그러나 공식 인증을 위해서는 완전히 교정된 **무반사 챔버**에서 측정을 수행해야 한다. 챔버의 성능은 그 건설에 사용된 **무반사 재료**의 품질에 달려 있다. 민감한 전치 증폭기 및 스펙트럼 분석기는 테스트 과정 동안 **전자파 흡수체가 부착된 전자파 차폐실** 내에 배치되어 외부 간섭으로부터 보호된다."
+      },
+      {
+        "영문": "The design of our new radar system required extensive testing to validate its performance.  Initial assessments were conducted in an **anechoic chamber** to characterize the radar’s signal propagation.  Further analysis involved evaluating the system’s susceptibility to interference using an **absorbing clamp test site**.  To ensure the integrity of the sensitive receiver components, they were placed inside an **absorber lined shielded enclosure**, and the entire testing environment benefitted from the use of high-performance **anechoic material** throughout the chamber.",
+        "한글": "새로운 레이더 시스템의 설계에는 성능을 검증하기 위한 광범위한 테스트가 필요했다. 초기 평가는 레이더의 신호 전파를 특성화하기 위해 **무반사 챔버**에서 수행되었다. 추가 분석에는 **흡수 클램프 시험장**을 사용하여 시스템의 간섭 취약성을 평가하는 것이 포함되었다. 민감한 수신기 구성 요소의 무결성을 보장하기 위해 **전자파 흡수체가 부착된 전자파 차폐실** 내에 배치했으며, 전체 테스트 환경은 챔버 전체에 고성능 **무반사 재료**를 사용하여 이점을 얻었다."
+      }
+    ]
+  },
+  {
+    "cluster": "EMC 시험 및 측정 관련",
+    "sampled_terms": {
+      "alternative test method": "대체 시험 방법",
+      "absorber-lined OATS/SAC": "흡수체 배치 야외시험장/반무반사실",
+      "attenuation": "감쇠",
+      "absorbing clamp measurement method": "흡수 클램프 측정방법"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "To ensure the reliability of wireless communication devices, it is crucial to perform thorough electromagnetic compatibility (EMC) testing. When conventional testing methods prove insufficient, an **alternative test method** may be required to accurately assess the device's performance under various conditions. This often involves utilizing specialized facilities like an **absorber-lined OATS/SAC** to minimize unwanted reflections and ensure accurate measurements of **attenuation** characteristics.",
+        "한글": "무선 통신 장치의 신뢰성을 확보하기 위해서는 철저한 전자기 적합성(EMC) 시험을 수행하는 것이 중요합니다. 기존의 시험 방법으로 충분하지 않은 경우, 다양한 조건에서 장치의 성능을 정확하게 평가하기 위해 **대체 시험 방법**이 필요할 수 있습니다. 이를 위해 종종 **흡수체 배치 야외시험장/반무반사실**과 같은 특수 시설을 활용하여 원치 않는 반사를 최소화하고 **감쇠** 특성을 정확하게 측정합니다."
+      },
+      {
+        "영문": "The design of shielding enclosures relies heavily on understanding the principles of electromagnetic wave propagation and **attenuation**. The effectiveness of the shielding is often verified through measurements performed in a shielded chamber or, alternatively, in an **absorber-lined OATS/SAC**.  A critical aspect of this verification process involves employing an **absorbing clamp measurement method** to quantify leakage currents.",
+        "한글": "차폐 인클로저의 설계는 전자기파 전파 및 **감쇠** 원리에 크게 의존합니다. 차폐 효과는 일반적으로 차폐실 또는 **흡수체 배치 야외시험장/반무반사실**에서 수행되는 측정을 통해 검증됩니다. 이 검증 과정의 중요한 측면은 누설 전류를 정량화하기 위해 **흡수 클램프 측정방법**을 사용하는 것입니다."
+      },
+      {
+        "영문": "During pre-compliance testing, engineers often employ an **alternative test method** to quickly identify potential EMC issues before submitting devices for formal certification.  This initial assessment can be conducted using a temporary **absorber-lined OATS/SAC** setup, allowing for a preliminary evaluation of **attenuation** performance.  However, for precise measurement of radiated emissions, the **absorbing clamp measurement method** offers improved accuracy.",
+        "한글": "사전 규정 준수 시험 중 엔지니어는 종종 장치를 공식 인증을 위해 제출하기 전에 잠재적인 EMC 문제를 신속하게 식별하기 위해 **대체 시험 방법**을 사용합니다. 이러한 초기 평가는 임시 **흡수체 배치 야외시험장/반무반사실** 설정을 사용하여 **감쇠** 성능에 대한 예비 평가를 허용합니다. 그러나 방사선 배출량의 정확한 측정을 위해서는 **흡수 클램프 측정방법**이 향상된 정확도를 제공합니다."
+      },
+      {
+        "영문": "When dealing with complex antenna systems, accurately measuring radiated emissions can be challenging.  Traditional methods may be insufficient, prompting the use of an **alternative test method** combined with sophisticated signal processing techniques. The use of an **absorber-lined OATS/SAC** is paramount in minimizing reflections and achieving reliable **attenuation** measurements. Furthermore, the **absorbing clamp measurement method** proves invaluable in identifying and mitigating common-mode noise.",
+        "한글": "복잡한 안테나 시스템을 다룰 때, 방사선 배출량을 정확하게 측정하는 것은 어려울 수 있습니다. 기존 방법으로는 충분하지 않을 수 있으며, 이는 정교한 신호 처리 기술과 함께 **대체 시험 방법**의 사용을 유도합니다. **흡수체 배치 야외시험장/반무반사실**을 사용하는 것은 반사를 최소화하고 신뢰할 수 있는 **감쇠** 측정을 달성하는 데 가장 중요합니다. 또한, **흡수 클램프 측정방법**은 공통 모드 노이즈를 식별하고 완화하는 데 매우 유용합니다."
+      },
+      {
+        "영문": "The regulatory requirements for EMC testing are constantly evolving.  Manufacturers must adapt their testing procedures and potentially adopt an **alternative test method** to meet new standards.  A well-maintained **absorber-lined OATS/SAC** is essential for achieving consistent and repeatable results, especially when evaluating **attenuation** across a broad frequency range.  The **absorbing clamp measurement method** is often specified for compliance testing related to conducted emissions.",
+        "한글": "EMC 시험에 대한 규제 요구 사항은 끊임없이 변화하고 있습니다. 제조업체는 새로운 표준을 충족하기 위해 시험 절차를 조정하고 잠재적으로 **대체 시험 방법**을 채택해야 합니다. 일관되고 반복 가능한 결과를 얻기 위해서는 특히 넓은 주파수 범위에서 **감쇠**를 평가할 때 잘 관리된 **흡수체 배치 야외시험장/반무반사실**이 필수적입니다. **흡수 클램프 측정방법**은 전도성 방출 관련 규정 준수 시험에 자주 명시됩니다."
+      },
+      {
+        "영문": "Investigating spurious emissions requires careful consideration of the test environment. While a standard shielded room can be used, an **absorber-lined OATS/SAC** often provides superior results due to reduced reflections.  If standard procedures are not feasible, an **alternative test method** may be proposed, but it must be thoroughly documented and justified. Measuring the **attenuation** provided by filters often relies on the **absorbing clamp measurement method** for accurate characterization.",
+        "한글": "스퓨리어스 배출 조사는 시험 환경에 대한 신중한 고려가 필요합니다. 표준 차폐실을 사용할 수 있지만, **흡수체 배치 야외시험장/반무반사실**은 반사가 줄어들어 종종 더 우수한 결과를 제공합니다. 표준 절차가 불가능한 경우 **대체 시험 방법**을 제안할 수 있지만, 이를 철저히 문서화하고 정당화해야 합니다. 필터가 제공하는 **감쇠** 측정을 위해서는 종종 정확한 특성화를 위해 **흡수 클램프 측정방법**에 의존합니다."
+      }
+    ]
+  },
+  {
+    "cluster": "회로 및 시스템 관련",
+    "sampled_terms": {
+      "analogue/digital data port": "아날로그/디지털 데이터 포트",
+      "asymmetric artificial network": "비대칭의사회로망",
+      "artificial mains network": "의사전원회로망",
+      "active electronic circuit": "능동 전자회로"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "The communication system utilizes both an **analogue/digital data port** for legacy device compatibility and a high-speed digital interface for modern peripherals. Careful consideration was given to the signal integrity of both interfaces during the design phase.",
+        "한글": "본 통신 시스템은 기존 장치와의 호환성을 위해 **아날로그/디지털 데이터 포트**와 최신 주변 장치를 위한 고속 디지털 인터페이스를 모두 사용합니다. 설계 단계에서 양쪽 인터페이스의 신호 무결성을 신중하게 고려했습니다."
+      },
+      {
+        "영문": "Researchers are exploring the potential of **asymmetric artificial network** architectures for improved pattern recognition in complex datasets. This approach allows for more nuanced feature extraction and enhanced classification accuracy.",
+        "한글": "연구자들은 복잡한 데이터 세트에서 패턴 인식을 개선하기 위해 **비대칭의사회로망** 구조의 잠재력을 탐구하고 있습니다. 이 접근 방식은 보다 미묘한 특징 추출과 향상된 분류 정확도를 가능하게 합니다."
+      },
+      {
+        "영문": "To ensure compliance with electromagnetic compatibility (EMC) standards, an **artificial mains network** was employed during conducted emissions testing. This setup simulates the impedance characteristics of a typical power distribution network.",
+        "한글": "전자기 적합성(EMC) 표준 준수를 보장하기 위해 전도 방사 시험 중에 **의사전원회로망**이 사용되었습니다. 이 설정은 일반적인 전원 분배 네트워크의 임피던스 특성을 시뮬레이션합니다."
+      },
+      {
+        "영문": "The sensor interface incorporates an **active electronic circuit** to amplify the weak signal from the transducer, enabling accurate measurement even in noisy environments. This circuit also provides filtering and signal conditioning functions.",
+        "한글": "센서 인터페이스는 변환기의 미약한 신호를 증폭하기 위해 **능동 전자회로**를 통합하여, 노이즈가 심한 환경에서도 정확한 측정이 가능합니다. 이 회로는 또한 필터링 및 신호 컨디셔닝 기능을 제공합니다."
+      },
+      {
+        "영문": "Data acquisition systems often require a flexible interface, leveraging both **analogue/digital data port** options to accommodate a wide range of sensor types. The selection of the appropriate port is crucial for optimal performance.",
+        "한글": "데이터 획득 시스템은 종종 다양한 유형의 센서를 수용하기 위해 **아날로그/디지털 데이터 포트** 옵션을 모두 활용하는 유연한 인터페이스가 필요합니다. 최적의 성능을 위해서는 적절한 포트 선택이 중요합니다."
+      },
+      {
+        "영문": "The design of the control system incorporates a sophisticated **asymmetric artificial network** trained to predict system behavior under varying load conditions. Furthermore, an **artificial mains network** was used to test the system's resilience to power line disturbances, and the core of the control loop relies on an **active electronic circuit** for precise regulation.",
+        "한글": "제어 시스템 설계에는 다양한 부하 조건에서 시스템 동작을 예측하도록 훈련된 정교한 **비대칭의사회로망**이 통합되어 있습니다. 또한, 전원 라인 장애에 대한 시스템의 복원력을 테스트하기 위해 **의사전원회로망**이 사용되었으며, 제어 루프의 핵심은 정밀한 조절을 위한 **능동 전자회로**에 의존합니다."
+      }
+    ]
+  },
+  {
+    "cluster": "기타 장비 및 구성 요소 관련",
+    "sampled_terms": {
+      "arc welding equipment": "아크 용접 기기",
+      "arrangement": "배치",
+      "apparatus": "기구",
+      "ancillary equipment": "보조기기"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "The optimal arrangement of the welding station is crucial for maximizing efficiency and minimizing operator fatigue.  Careful consideration must be given to the placement of the arc welding equipment, ensuring easy access to materials and a clear view of the weld pool.  Furthermore, the safety apparatus, including fume extractors and shielding curtains, must be correctly positioned to protect personnel.",
+        "한글": "용접 스테이션의 최적 배치 구성은 효율성을 극대화하고 작업자의 피로도를 최소화하는 데 매우 중요합니다. 아크 용접 기기의 위치는 자재 접근성과 용접 부위의 시야를 고려하여 신중하게 결정해야 합니다. 또한, 연기 추출 장치 및 차폐 커튼을 포함한 안전 기구를 올바르게 배치하여 작업자를 보호해야 합니다."
+      },
+      {
+        "영문": "During the inspection process, a specialized apparatus was used to measure the penetration depth of the weld.  This was followed by a visual assessment of the weld bead, checking for any defects. The ancillary equipment, such as grinders and brushes, were then utilized to prepare the surface for non-destructive testing.  The arc welding equipment used for this project met all relevant industry standards.",
+        "한글": "검사 과정에서 용접 비입사 깊이를 측정하기 위해 특수 기구가 사용되었습니다. 이어서 용접 비드에 결함이 없는지 육안으로 평가했습니다. 그 후, 연마기 및 브러시와 같은 보조기기를 사용하여 비파괴 검사를 위한 표면 처리를 진행했습니다. 이 프로젝트에 사용된 아크 용접 기기는 관련 산업 표준을 모두 충족했습니다."
+      },
+      {
+        "영문": "The proposed arrangement of the new workshop will significantly improve workflow.  The arc welding equipment will be housed in a dedicated bay, separated from the assembly area by a fire-resistant partition.  A comprehensive safety apparatus, including emergency shut-off switches and fire extinguishers, is essential.  We also require ancillary equipment for post-weld heat treatment.",
+        "한글": "제안된 작업장의 배치 구성은 워크플로우를 크게 개선할 것입니다. 아크 용접 기기는 조립 영역과 내화성 칸막이로 분리된 전용 공간에 배치될 것입니다. 비상 정지 스위치 및 소화기를 포함한 종합적인 안전 기구가 필수적입니다. 또한 용접 후 열처리용 보조기기가 필요합니다."
+      },
+      {
+        "영문": "To ensure the integrity of the welded joints, the arc welding equipment must be regularly calibrated. The arrangement of the power cables and gas lines should also be inspected for damage.  The operator should be thoroughly familiar with the operation of the safety apparatus.  Proper maintenance of ancillary equipment will extend its lifespan and improve performance.",
+        "한글": "용접 이음매의 무결성을 보장하기 위해 아크 용접 기기는 정기적으로 교정해야 합니다. 전원 케이블 및 가스 라인의 배치 또한 손상 여부를 검사해야 합니다. 작업자는 안전 기구의 작동에 대해 철저히 숙지해야 합니다. 보조기기의 적절한 유지 관리는 수명을 연장하고 성능을 향상시킵니다."
+      },
+      {
+        "영문": "The initial arrangement of the components proved to be inefficient, leading to increased welding time.  After several adjustments, we found a more optimal layout for the arc welding equipment.  A new ventilation apparatus was installed to remove harmful fumes.  The addition of ancillary equipment, such as a welding positioner, further improved the process.",
+        "한글": "초기 부품 배치는 비효율적이었고, 용접 시간이 증가했습니다. 여러 차례 조정을 거친 후, 아크 용접 기기에 대한 더 최적의 레이아웃을 찾았습니다. 유해한 연기를 제거하기 위해 새로운 환기 기구를 설치했습니다. 용접 위치 결정기 같은 보조기기의 추가는 프로세스를 더욱 개선했습니다."
+      },
+      {
+        "영문": "The design incorporates a modular arrangement, allowing for flexibility in the placement of the arc welding equipment.  Each welding cell includes a dedicated safety apparatus to protect the operator.  The selection of ancillary equipment, such as wire feeders and cleaning tools, was based on the specific welding process.  Careful attention was paid to the ergonomic design of the entire setup.",
+        "한글": "이 설계는 모듈식 배치 방식을 채택하여 아크 용접 기기 배치에 유연성을 제공합니다. 각 용접 셀에는 작업자를 보호하기 위한 전용 안전 기구가 포함되어 있습니다. 와이어 피더 및 청소 도구와 같은 보조기기의 선택은 특정 용접 공정에 따라 이루어졌습니다. 전체 설정의 인체 공학적 설계에 세심한 주의를 기울였습니다."
+      }
+    ]
+  },
+  {
+    "cluster": "기타 장비 및 구성 요소 관련",
+    "sampled_terms": {
+      "associated port": "연관 포트",
+      "apparatus; equipment": "기구, 장비",
+      "associated equipment": "관련 장비",
+      "associated device": "연관 장치"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "During the installation process, ensure the network cable is connected to the **associated port** on the main server. Incorrect connection can lead to communication failures and system instability. Furthermore, verify that all **associated equipment**, such as the power supply and cooling fans, are functioning correctly before proceeding.",
+        "한글": "설치 과정 중에는 네트워크 케이블이 메인 서버의 **연관 포트**에 연결되었는지 확인하십시오. 잘못된 연결은 통신 오류 및 시스템 불안정으로 이어질 수 있습니다. 또한, 전원 공급 장치 및 냉각 팬과 같은 **관련 장비**가 정상적으로 작동하는지 확인한 후 진행하십시오."
+      },
+      {
+        "영문": "The diagnostic software identifies the failing component as a critical part of the **associated device**. Technicians should replace the entire module rather than attempting individual repairs. The **apparatus; equipment** requires a specific calibration procedure after the replacement to ensure optimal performance.",
+        "한글": "진단 소프트웨어는 오류가 있는 구성 요소를 **연관 장치**의 중요한 부분으로 식별합니다. 기술자는 개별 수리를 시도하기보다는 전체 모듈을 교체해야 합니다. 해당 **기구, 장비**는 최적의 성능을 보장하기 위해 교체 후 특정 보정 절차를 거쳐야 합니다."
+      },
+      {
+        "영문": "To troubleshoot the communication error, first check the **associated port** on the router. If the port is inactive, confirm that the **associated device** is powered on and properly configured. Any issues with the **associated equipment** like repeaters should also be investigated.",
+        "한글": "통신 오류를 해결하려면 먼저 라우터의 **연관 포트**를 확인하십시오. 포트가 비활성 상태인 경우, **연관 장치**의 전원이 켜져 있고 올바르게 구성되었는지 확인하십시오. 리피터와 같은 **관련 장비**에 문제가 있는지도 조사해야 합니다."
+      },
+      {
+        "영문": "This system utilizes a dedicated **associated port** for remote access and control. The security protocols implemented protect against unauthorized access to the **apparatus; equipment**. Regular maintenance of the **associated device** and all its connected components is crucial for reliable operation.",
+        "한글": "이 시스템은 원격 액세스 및 제어를 위해 전용 **연관 포트**를 사용합니다. 구현된 보안 프로토콜은 **기구, 장비**에 대한 무단 액세스를 방지합니다. 안정적인 작동을 위해서는 **연관 장치** 및 연결된 모든 구성 요소의 정기적인 유지 관리가 중요합니다."
+      },
+      {
+        "영문": "The data logger's functionality is dependent on the correct operation of the **associated equipment**. If the sensor fails, the data transmitted through the **associated port** will be inaccurate.  The entire **associated device** needs to be recalibrated following a power surge.",
+        "한글": "데이터 로거의 기능은 **관련 장비**의 올바른 작동에 따라 달라집니다. 센서가 고장나면 **연관 포트**를 통해 전송되는 데이터가 부정확해집니다. 전원 서지 후에는 전체 **연관 장치**를 재보정해야 합니다."
+      },
+      {
+        "영문": "Ensure that the firmware version of the **associated device** is compatible with the control software. The **associated port** is specifically designed for high-speed data transfer to the main processing unit. Proper grounding of the **apparatus; equipment** and all **associated equipment** is essential for safety and performance.",
+        "한글": "제어 소프트웨어와 **연관 장치**의 펌웨어 버전이 호환되는지 확인하십시오. **연관 포트**는 메인 처리 장치로 고속 데이터 전송을 위해 특별히 설계되었습니다. 안전과 성능을 위해 **기구, 장비** 및 모든 **관련 장비**를 적절하게 접지하는 것이 중요합니다."
+      }
+    ]
+  },
+  {
+    "cluster": "접속 및 신호 관련",
+    "sampled_terms": {
+      "amplitude modulation": "진폭변조",
+      "aperture coupling regime": "개구부 결합 영역",
+      "aperture port-of-entry": "입력의 개구 인입점(입력의 개구 단자)",
+      "aperture": "개구, 구멍, 벌어진 틈"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "In wireless communication systems, **amplitude modulation** is a fundamental technique used to encode information onto a carrier wave. The efficiency of this process is heavily influenced by the characteristics of the transmitting antenna and the receiver’s ability to accurately detect the modulated signal, especially when operating within an **aperture coupling regime** where signal leakage is a concern.",
+        "한글": "무선 통신 시스템에서 **진폭변조**는 반송파에 정보를 인코딩하는 기본적인 기술입니다. 이 프로세스의 효율성은 송신 안테나의 특성과 수신기가 변조된 신호를 정확하게 감지하는 능력에 크게 영향을 받습니다. 특히 신호 누설이 문제가 되는 **개구부 결합 영역**에서 더욱 그렇습니다."
+      },
+      {
+        "영문": "The design of high-frequency circuits often requires careful consideration of parasitic effects, particularly those related to electromagnetic interference. Understanding the **aperture port-of-entry** for unwanted signals is crucial for implementing effective shielding strategies, minimizing signal degradation, and maintaining signal integrity.",
+        "한글": "고주파 회로 설계는 종종 기생 효과, 특히 전자기 간섭과 관련된 효과를 신중하게 고려해야 합니다. 원치 않는 신호의 **입력의 개구 인입점(입력의 개구 단자)**을 이해하는 것은 효과적인 차폐 전략을 구현하고 신호 저하를 최소화하며 신호 무결성을 유지하는 데 중요합니다."
+      },
+      {
+        "영문": "Optical systems utilizing micro-lenses often rely on precise control of the **aperture** size to manage the focal point and depth of field. Furthermore, the **amplitude modulation** of the incident light can be used to generate contrast in imaging applications. The interaction between the light and the **aperture** is also important in determining the **aperture coupling regime**.",
+        "한글": "마이크로 렌즈를 사용하는 광학 시스템은 종종 초점과 심도를 관리하기 위해 **개구** 크기를 정밀하게 제어하는 데 의존합니다. 또한, 입사광의 **진폭변조**는 이미징 응용 분야에서 대비를 생성하는 데 사용될 수 있습니다. 빛과 **개구** 사이의 상호 작용은 **개구부 결합 영역**을 결정하는 데 있어서도 중요합니다."
+      },
+      {
+        "영문": "In the context of radar systems, the size and shape of the antenna **aperture** directly influence the beamwidth and gain. A larger **aperture** generally leads to a narrower beamwidth and higher gain. Analyzing the **aperture coupling regime** is critical for minimizing unwanted reflections. The received signal is often processed using **amplitude modulation** techniques to extract the target’s information.",
+        "한글": "레이더 시스템의 맥락에서 안테나 **개구**의 크기와 모양은 빔 폭과 이득에 직접적인 영향을 미칩니다. 일반적으로 더 큰 **개구**는 더 좁은 빔 폭과 더 높은 이득을 가져옵니다. **개구부 결합 영역**을 분석하는 것은 원치 않는 반사를 최소화하는 데 중요합니다. 수신된 신호는 종종 표적의 정보를 추출하기 위해 **진폭변조** 기술을 사용하여 처리됩니다."
+      },
+      {
+        "영문": "The design of a secure communication channel necessitates a thorough understanding of potential vulnerabilities. One crucial aspect is controlling the **aperture port-of-entry** for electromagnetic radiation, preventing eavesdropping. Employing **amplitude modulation** with sophisticated encryption schemes can further enhance security. The **aperture** itself must be physically shielded to prevent unintended signal leakage, ensuring operation remains within a secure **aperture coupling regime**.",
+        "한글": "보안 통신 채널 설계를 위해서는 잠재적인 취약점에 대한 철저한 이해가 필요합니다. 중요한 측면 중 하나는 전자기 방사선의 **입력의 개구 인입점(입력의 개구 단자)**을 제어하여 도청을 방지하는 것입니다. 정교한 암호화 체계를 사용하여 **진폭변조**를 적용하면 보안을 더욱 강화할 수 있습니다. **개구** 자체는 의도치 않은 신호 누출을 방지하기 위해 물리적으로 차폐되어야 하며, 보안 **개구부 결합 영역** 내에서 작동하도록 보장해야 합니다."
+      },
+      {
+        "영문": "When designing a phased array antenna, the **aperture** distribution is a critical parameter. Controlling the phase and amplitude of signals across the **aperture** allows for beam steering and shaping. Analyzing the **aperture coupling regime** is vital for preventing unwanted interference between antenna elements. **Amplitude modulation** can be used to fine-tune the signal characteristics at the **aperture port-of-entry**.",
+        "한글": "위상 배열 안테나를 설계할 때 **개구** 분포는 중요한 매개변수입니다. **개구** 전체에서 신호의 위상과 진폭을 제어하면 빔 조향 및 모양을 형성할 수 있습니다. **개구부 결합 영역**을 분석하는 것은 안테나 요소 간의 원치 않는 간섭을 방지하는 데 중요합니다. **진폭변조**는 **입력의 개구 인입점(입력의 개구 단자)**에서 신호 특성을 미세 조정하는 데 사용될 수 있습니다."
+      }
+    ]
+  },
+  {
+    "cluster": "안전 및 특성 관련",
+    "sampled_terms": {
+      "antistatic material": "정전기 방지물질",
+      "asymmetric voltage": "비대칭 전압",
+      "air insulated substation": "공기 절연 변전소",
+      "air discharge method": "기중 방전법"
+    },
+    "paragraph_pairs": [
+      {
+        "영문": "In the design of sensitive electronic components, the selection of appropriate packaging materials is crucial.  Using an **antistatic material** is essential to prevent electrostatic discharge damage during handling and operation. Furthermore, the power supply often exhibits an **asymmetric voltage** due to load imbalances, which can affect the performance of the device.  Regular maintenance of the **air insulated substation** is vital for ensuring reliable power distribution.  The effectiveness of grounding systems can be verified using the **air discharge method** to identify potential hazards.",
+        "한글": "민감한 전자 부품 설계에서 적절한 포장재 선택은 매우 중요합니다. 취급 및 작동 중 정전기 방전 손상을 방지하기 위해 **정전기 방지물질**을 사용하는 것이 필수적입니다. 또한, 부하 불균형으로 인해 전원 공급 장치가 **비대칭 전압**을 나타내는 경우가 많으며, 이는 장치의 성능에 영향을 미칠 수 있습니다. 안정적인 전력 분배를 위해 **공기 절연 변전소**의 정기적인 유지보수가 중요합니다. 접지 시스템의 효과는 잠재적인 위험을 식별하기 위해 **기중 방전법**을 사용하여 검증할 수 있습니다."
+      },
+      {
+        "영문": "The high-voltage testing procedure involves applying a controlled **asymmetric voltage** to the insulation to assess its breakdown strength.  To ensure worker safety within the **air insulated substation**, strict protocols are followed regarding access and operation.  The use of **antistatic material** in the construction of testing equipment minimizes interference during measurements.  The **air discharge method** is employed to detect corona discharge and other insulation defects.",
+        "한글": "고전압 테스트 절차에는 절연체의 절연 강도를 평가하기 위해 제어된 **비대칭 전압**을 인가하는 과정이 포함됩니다. **공기 절연 변전소** 내부 작업자의 안전을 위해 접근 및 운영에 대한 엄격한 규정이 적용됩니다. 테스트 장비 제작에 **정전기 방지물질**을 사용하면 측정 중 간섭을 최소화할 수 있습니다. **기중 방전법**은 코로나 방전 및 기타 절연 결함을 감지하는 데 사용됩니다."
+      },
+      {
+        "영문": "During the installation of new equipment in the **air insulated substation**, it is critical to verify the integrity of the grounding system.  The presence of **antistatic material** on the floor helps to dissipate static charges.  Fluctuations in the grid can lead to an **asymmetric voltage** impacting connected loads.  Routine inspections utilizing the **air discharge method** help to maintain the reliability of the substation’s insulation.",
+        "한글": " **공기 절연 변전소**에 새로운 장비를 설치하는 동안 접지 시스템의 무결성을 확인하는 것이 중요합니다. 바닥에 **정전기 방지물질**이 있으면 정전기를 방출하는 데 도움이 됩니다. 전력망의 변동은 연결된 부하에 영향을 미치는 **비대칭 전압**을 유발할 수 있습니다. **기중 방전법**을 사용한 정기 검사는 변전소 절연의 신뢰성을 유지하는 데 도움이 됩니다."
+      },
+      {
+        "영문": "The research team is investigating new methods for detecting partial discharges in high-voltage equipment. One promising technique involves analyzing the spectra of emissions generated by the **air discharge method**.  The equipment utilizes a specialized **antistatic material** to prevent charge accumulation.  The system is designed to operate even with significant **asymmetric voltage** fluctuations. The performance of the monitoring system was evaluated at a local **air insulated substation**.",
+        "한글": "연구팀은 고전압 장비에서 부분 방전을 감지하는 새로운 방법을 연구하고 있습니다. 유망한 기술 중 하나는 **기중 방전법**에 의해 생성된 방출 스펙트럼을 분석하는 것입니다. 이 장비는 전하 축적을 방지하기 위해 특수 **정전기 방지물질**을 사용합니다. 이 시스템은 상당한 **비대칭 전압** 변동이 있더라도 작동하도록 설계되었습니다. 모니터링 시스템의 성능은 지역 **공기 절연 변전소**에서 평가되었습니다."
+      },
+      {
+        "영문": "The specifications for the new power converter require the use of **antistatic material** in the housing to protect sensitive internal components.  The output voltage must remain stable even under conditions of **asymmetric voltage** input.  The converter will be installed in an existing **air insulated substation**, requiring careful coordination with the site’s engineering team.  Preliminary testing involved the **air discharge method** to confirm insulation integrity.",
+        "한글": "새로운 전력 변환기의 사양에는 민감한 내부 구성 요소를 보호하기 위해 하우징에 **정전기 방지물질**을 사용하도록 요구합니다. 출력 전압은 **비대칭 전압** 입력 조건에서도 안정적으로 유지되어야 합니다. 변환기는 기존 **공기 절연 변전소**에 설치될 예정이므로 현장 엔지니어링 팀과의 신중한 조정이 필요합니다. 예비 테스트에는 절연 무결성을 확인하기 위해 **기중 방전법**이 포함되었습니다."
+      },
+      {
+        "영문": "Failure analysis of the damaged transformer revealed the presence of tracking due to surface contamination. The enclosure was constructed using a standard plastic, lacking the necessary **antistatic material**.  The transformer experienced prolonged exposure to an **asymmetric voltage** during a grid disturbance. The unit was located within the main **air insulated substation** and its failure caused a significant outage.  The cause of the initial breakdown was determined using the **air discharge method** to identify the point of origin.",
+        "한글": "손상된 변압기 고장 분석 결과 표면 오염으로 인한 트래킹이 발견되었습니다. 인클로저는 필요한 **정전기 방지물질**이 부족한 표준 플라스틱으로 제작되었습니다. 변압기는 전력망 장애 중 **비대칭 전압**에 장기간 노출되었습니다. 해당 장치는 주요 **공기 절연 변전소** 내에 위치해 있었고, 고장으로 인해 상당한 정전이 발생했습니다. 초기 파괴 원인은 **기중 방전법**을 사용하여 기원점을 식별하여 결정되었습니다."
+      }
+    ]
+  }
+]

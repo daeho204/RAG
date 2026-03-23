@@ -1,4 +1,4 @@
-from llm_client import VllmChatClient, VllmConfig
+from rag.llm_client import VllmChatClient, VllmConfig
 from rag.log_store import JsonlChatStore
 
 store = JsonlChatStore("logs/chat_history.jsonl")
