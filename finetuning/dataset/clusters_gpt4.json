@@ -1,7 +1,7 @@
 {
   "전원 및 에너지": {
     "a.c. power port": "교류전원 포트",
-    "AC mains power port": "직류 주전원 포트",
+    "AC mains power port": "교류 주전원 포트",
     "active power": "유효 전력",
     "air insulated substation": "공기 절연 변전소",
     "agreed power": "계약전력",

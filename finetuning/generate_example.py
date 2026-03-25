@@ -22,7 +22,7 @@ def cluster_glossary(glossary: dict, batch_size: int = 100) -> dict:
         batch = dict(items[i:i+batch_size])
         word_list = "\n".join([f"{eng}: {kr}" for eng, kr in batch.items()])
         
-        print(f"배치 처리 중... ({i+1}~{min(i+batch_size, len(items))}/{len(items)})")
+        print(f"Batching ({i+1}~{min(i+batch_size, len(items))}/{len(items)})")
         
         response = client.chat.completions.create(
             model="gpt-4o",
@@ -152,42 +152,38 @@ def run_pipeline(glossary: dict, M: int = 4, L: int = 3, total: int = 100):
     """
     Parameters
     ----------
-    glossary : dict
-        {영어용어: 한국어용어} 형태의 용어집 딕셔너리
-    M : int
-        한 묶음당 랜덤 추출할 용어 수 (default: 4)
-    L : int
-        한 묶음당 생성할 한/영 문단 쌍 수 (default: 3)
-    total : int
-        생성할 총 묶음 수 (default: 100), 최대 len(glossary) // M
+    glossary : dict{영어용어: 한국어용어} 형태의 용어집 딕셔너리
+    M : 한 묶음당 랜덤 추출할 용어 수 
+    L : 한 묶음당 생성할 한/영 문단 쌍 수
+    total : 생성할 총 묶음 수
     """
     results = []
     cluster_path = os.path.join(BASE_DIR, "dataset", "clusters.json")
 
     # 클러스터 파일 있으면 불러오고, 없으면 새로 생성
+    # 클러스터가 있어야 토큰 소모량이 줄어든다.
+    
     if os.path.exists(cluster_path):
-        print("기존 클러스터 파일 불러오는 중...")
+        print("load exsiting clusters")
         with open(cluster_path, "r", encoding="utf-8") as f:
             clusters = json.load(f)
-        print(f"불러오기 완료! {len(clusters)}개 클러스터")
+        print(f"{len(clusters)}clusters loaded")
     else:
-        print("클러스터링 중...")
+
         clusters = cluster_glossary(glossary)
         with open(cluster_path, "w", encoding="utf-8") as f:
             json.dump(clusters, f, ensure_ascii=False, indent=2)
-        print(f"클러스터링 완료! {len(clusters)}개 클러스터 저장됨")
+        print(f"{len(clusters)}clusters saved")
 
     # 클러스터링 결과 검증
     clustered_count = sum(len(v) for v in clusters.values())
-    print(f"원본: {len(glossary)}개 / 클러스터링 결과: {clustered_count}개")
+    print(f"Original Count: {len(glossary)} / Clustered Result: {clustered_count}")
     if clustered_count != len(glossary):
-        print(f"⚠️ {len(glossary) - clustered_count}개 누락됨!")
+        print(f"{len(glossary) - clustered_count} missing")
 
     for cluster_name, cluster_words in clusters.items():
         if len(results) >= total:
             break
-            
-        print(f"처리 중: {cluster_name} ({len(cluster_words)}개 용어)")
         
         items = list(cluster_words.items())
         
@@ -204,9 +200,9 @@ def run_pipeline(glossary: dict, M: int = 4, L: int = 3, total: int = 100):
                     "sampled_terms": sampled,
                     "paragraph_pairs": pairs
                 })
-                print(f"진행: {len(results)}/{total}")
+                print(f"Progress: {len(results)}/{total}")
             except Exception as e:
-                print(f"오류 발생 ({cluster_name}): {e}")
+                print(f"Error occurred ({cluster_name}): {e}")
             
             for key in sampled:
                 items = [item for item in items if item[0] != key]
@@ -224,4 +220,4 @@ if __name__ == "__main__":
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
-    print(f"완료! 총 {len(results)}개 묶음 생성됨")
+    print(f"{len(results)} Created")

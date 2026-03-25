@@ -1,29 +1,3 @@
-# train_gemma3_27b_qlora_promptlen_collator_stable.py
-# -*- coding: utf-8 -*-
-
-"""
-Gemma3 QLoRA training (completion-only loss) using prompt-length masking.
-
-Key improvements in this version:
-1) Keep native pad token if tokenizer/model already defines it
-2) Always provide token_type_ids for Gemma3 training
-3) Use non-reentrant gradient checkpointing explicitly
-4) Use attention-only LoRA target modules for better stability / lower VRAM
-5) Track kept-token statistics:
-   - zero ratio
-   - average kept
-   - small kept ratio (<= 16)
-6) Filter samples with zero trainable assistant tokens BEFORE training
-7) Check whether prompt token ids are a true prefix of full token ids
-8) Use ddp_find_unused_parameters=False by default
-9) Use a slightly safer default LR for 27B QLoRA
-
-Example:
-accelerate launch --num_processes 4 train_gemma3_27b_qlora_promptlen_collator_stable.py \
-  --data_files dataset_gemma_chat.jsonl \
-  --output_dir outputs/gemma3_27b_qlora_promptlen_stable
-"""
-
 from __future__ import annotations
 
 import os
@@ -154,18 +128,37 @@ def normalize_messages_to_text(tokenizer, msgs) -> str:
     )
 
 #gemma3의 module들 중에 language관련 모델만 추출한다.
+# def find_text_lora_target_modules(model):
+#     allowed_suffixes = (
+#         "q_proj", "k_proj", "v_proj", "o_proj",
+#         "gate_proj", "up_proj", "down_proj",
+#     )
+#     targets = []
+#     for module_name, _ in model.named_modules():
+#         if not module_name.startswith("language_model"):
+#             continue
+#         if module_name.endswith(allowed_suffixes):
+#             targets.append(module_name)
+#     return sorted(set(targets))
+
 def find_text_lora_target_modules(model):
     allowed_suffixes = (
         "q_proj", "k_proj", "v_proj", "o_proj",
         "gate_proj", "up_proj", "down_proj",
     )
+
     targets = []
     for module_name, _ in model.named_modules():
-        if not module_name.startswith("language_model"):
+        # vision tower / multimodal projector 쪽은 제외하고
+        # language_model 내부에 포함된 projection layer만 선택
+        if "language_model" not in module_name:
             continue
+
         if module_name.endswith(allowed_suffixes):
             targets.append(module_name)
-    return sorted(set(targets))
+
+    targets = sorted(set(targets))
+    return targets
 
 # ============================================================
 # PromptLen-based completion-only collator

@@ -17,9 +17,10 @@ from peft import PeftModel
 # ==============================
 
 BASE_MODEL_ID = "google/gemma-3-27b-it"
-ADAPTER_DIR = "/dataset/finetune/outputs/gemma3_27b_medical_AdaptLLM_260305(remakeTest2)"
+# ADAPTER_DIR = "/dataset/finetune/outputs/gemma3_27b_medical_AdaptLLM_260305(remakeTest2)"
+ADAPTER_DIR = "/home/gpuuser/daeho/emc_translation_adapter_epoch3"
 
-OUT_JSONL = "out_details_remake_3.jsonl"
+OUT_JSONL = "out_details_remake_4.jsonl"
 
 DTYPE = "bf16"  # "bf16" or "fp16"
 
@@ -28,23 +29,34 @@ TEMPERATURE = 0.0
 TOP_P = 1.0
 
 SYSTEM_PROMPT = (
-    "You are a careful assistant. "
+    # "You are a careful assistant. "
     # "If you are not sure or do not know, say '모르겠습니다'. "
     # "Do not invent facts or guess."
+    "다음 문장을 한국어로 번역해줘"
 )
 
-QUERIES = [
-    "피부 절개 전 항생제 투여 권고 시간은 몇 분 이내로 명시되어 있는가?",
-    "피부 절개 전 항생제의 60분 이내 투여가 60~120분 사이 투여보다 우월하다는 근거가 충분한가?",
-    "반감기가 짧은 항생제의 경우, 투여 시점은 어떻게 권고되는가?",
-    "수술실에서 항생제를 투여할 수 있는 경우, 적절한 투여 시점은 언제인가?",
-    "120분 이내 항생제 투여의 효과에 대한 근거는 무엇이라고 설명되어 있는가?",
-    "H. pylori 감염군과 비감염군 사이의 혈청 가스트린 수치에는 통계적으로 유의한 차이가 있는가?",
-    "혈청 가스트린 수치 상승과 가장 직접적으로 관련된 요인은 무엇으로 기술되어 있는가?",
-    "H. pylori 감염 여부는 어떤 검사 방법으로 판정되었는가?",
-    "H. pylori 감염과 고가스트린혈증 간에는 직접적인 상관관계가 있는가?",
-    "H. pylori 감염 환자의 혈청 가스트린 수치는 비감염 환자에 비해 몇 퍼센트 증가한다고 보고되었는가?",
+# QUERIES = [
+#     "피부 절개 전 항생제 투여 권고 시간은 몇 분 이내로 명시되어 있는가?",
+#     "피부 절개 전 항생제의 60분 이내 투여가 60~120분 사이 투여보다 우월하다는 근거가 충분한가?",
+#     "반감기가 짧은 항생제의 경우, 투여 시점은 어떻게 권고되는가?",
+#     "수술실에서 항생제를 투여할 수 있는 경우, 적절한 투여 시점은 언제인가?",
+#     "120분 이내 항생제 투여의 효과에 대한 근거는 무엇이라고 설명되어 있는가?",
+#     "H. pylori 감염군과 비감염군 사이의 혈청 가스트린 수치에는 통계적으로 유의한 차이가 있는가?",
+#     "혈청 가스트린 수치 상승과 가장 직접적으로 관련된 요인은 무엇으로 기술되어 있는가?",
+#     "H. pylori 감염 여부는 어떤 검사 방법으로 판정되었는가?",
+#     "H. pylori 감염과 고가스트린혈증 간에는 직접적인 상관관계가 있는가?",
+#     "H. pylori 감염 환자의 혈청 가스트린 수치는 비감염 환자에 비해 몇 퍼센트 증가한다고 보고되었는가?",
     
+# ]
+QUERIES = [
+#    "The EMI receiver measured the disturbance voltage using a quasi-peak value detector, which weights signals according to their repetition rate as specified in CISPR standards.​",
+#    "absorber-lined OATS/SAC: OATS or SAC with ground plane partially covered by RF-energy absorbing material.",
+#    "for the average detector, the effective time to average the signal envelope.",
+#    "for pure continuous broadband disturbances, e.g. from ignition motors, arc welding equipment, and collector motors, a stepped scan (with peak or even quasi-peak detection) for sampling of the emission spectrum may be used. In this case the knowledge of the type of disturbance is used to draw a polyline (piecewise) curve as the spectrum envelope (see Figure 3). The step size shall be chosen so that no significant variations in the spectrum envelope are missed. A single swept measurement, if performed slowly enough, will also yield the spectrum envelope",
+#    "The record shall also include an indication upon which conductor of the mains port carried the observed disturbance(s)",
+#    "In order to simulate the influence of the user’s hand, application of the artificial hand is required for hand-held equipment during the mains disturbance voltage measurement.",
+#    "The artificial hand consists of metal foil which is connected to one terminal (terminal M) of an RC element consisting of a capacitor of 220 pF ± 20 % in series with a resistance of 510 Ω ± 10 % (see Figure 6); the other terminal of the RC element shall be connected to the reference ground of the measuring system (see CISPR 16-1-2). The RC element of the artificial hand may be incorporated in the housing of the artificial mains network.",
+#    "The artificial network is required to provide a defined impedance at radio frequencies across the mains supply at the point of measurement and also to provide for isolation of the equipment under test from ambient noise on the power lines.",
 ]
 
 def torch_dtype():
@@ -183,9 +195,26 @@ def run_batch(queries: List[str]) -> None:
     print("Loading BASE+PEFT model (independent)...")
     peft_model = load_base_plus_peft_model()
 
-    # Optional: quick sanity check that adapter is attached
-    print("\n[PEFT CONFIG]")
-    print(peft_model.peft_config)
+    # PEFT 설정 확인
+    # print("\n[PEFT CONFIG]")
+    # print(peft_model.peft_config)
+    # print("\n=== LoRA MODULE CHECK ===")
+
+    # count = 0
+    # for name, module in peft_model.named_modules():
+    #     if "lora" in name.lower():
+    #         print(name)
+    #         count += 1
+
+    # print(f"\n[LoRA] total lora modules: {count}")
+
+    # print("\n=== TRAINABLE PARAMS (LoRA) ===")
+    # for name, param in peft_model.named_parameters():
+    #     if "lora" in name.lower():
+    #         print(name, param.shape)
+    
+    # print("\n=== MODEL SUMMARY ===")
+    # peft_model.print_trainable_parameters()
 
     print("\nStart batch inference (NO CONTEXT, CHAT TEMPLATE).\n")
 
@@ -235,7 +264,7 @@ def run_batch(queries: List[str]) -> None:
         }
         append_jsonl(OUT_JSONL, record)
 
-    print(f" Done. Saved to: {OUT_JSONL}")
+    print(f"✅ Done. Saved to: {OUT_JSONL}")
 
 
 def main():
